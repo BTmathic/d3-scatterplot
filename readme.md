@@ -10,9 +10,9 @@ We display the fastest 35 climbs up Alpe d'Huez by professional cyclists on a sc
 
 * D3
 
-### Source of data
+### Data
 
-https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/cyclist-data.json
+* https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/cyclist-data.json
 
 ### Built tools
 
