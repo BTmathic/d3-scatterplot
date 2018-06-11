@@ -1,40 +1,32 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  background-image: radial-gradient(pink 30%, transparent 0), radial-gradient(pink 30%, transparent 0);
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
+  font-size: 62.5%;
+  height: 100%;
+  min-width: 950px;
+  width: 100vw;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: $m-size;
-    line-height: 1.6;
-}
-
-body:after {
-  background: url('https://1.bp.blogspot.com/_W6PdCSPYbOM/TBAOi-mfW2I/AAAAAAAABNI/sXOOLguJI80/s1600/Alpe+d+Huez+2007+2.jpg');
-  background-repeat: no-repeat;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  content: '';
-  height: 100vh;
-  left: 0;
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 100vw;
-  z-index: -1;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 button:disabled {
-    cursor: default;
+  cursor: default;
 }
 
 #container {

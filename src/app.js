@@ -16,10 +16,12 @@ fetch('https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/maste
   main();
 
   function main() {
+    //document.body.style.height = window.clientHeight + 'px';
     popup.attr('class', 'tooltip')
       .style('opacity', 0);
 
     setSizes();
+    //document.body.style.width = window.clientWidth + 'px';
     drawGraph();
   }
 
