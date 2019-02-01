@@ -16,6 +16,6 @@ We display the fastest 35 climbs up Alpe d'Huez by professional cyclists on a sc
 
 ### Built tools
 
-* Webpack
+* Parcel
 * Yarn
 * Babel
